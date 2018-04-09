@@ -2,16 +2,10 @@
 
 We'll be using a file represented as **JSON** for this assignment. JSON is a standard for formatting data, and it's a common format you'll see throughout your web development career. Even more important will be parsing JSON.
 
-This large object is in the products js file. It is the kind of object you would really recieve from google shopping.
+This large object is in the products file. It is the kind of object you would really recieve from google shopping.
 
 ## Getting Started
-Create a `script.js` file and an index.html file with the same boiler plate code as before.
-
-Copy the `products.js` file into that directory.
-
-In the html file, include the script `products.js`. Remember that the order of the script tags matters.
-
-Write your functions in the `js/google-shopping.js` file. Run your functions in your `script.js` file.
+Write your solutions in the `ruby/google-shopping.rb` file.
 
 ## Deliverables
 
@@ -28,17 +22,6 @@ Use the product search result in your file to find the following results. Note t
 5.) Print all `items` that have an author name of "eBay" and are brand "Canon".
 
 6.) Print all the products with their **brand**, **price**, and an **image link**
-
-
-## Hints
-
-* If you type in the variable name `products` in the google chrome developer console, you can see and inspect all the items in the product object.
-* When in doubt, think about the different functions available for **strings**, **objects**, and **arrays**.
-* Double-check your results, especially with #5
-* Documentation
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 ---
 
