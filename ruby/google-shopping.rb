@@ -15,42 +15,42 @@ data = JSON.parse(file, {:symbolize_names => true})
 ###
 ### QUESTION 1
 ###
-#items = data[:items]
-#count = 0
-#items.each do |item|
-#  count += 1 if item[:kind] == 'shopping#product' 
-#end
-#pp count
+items = data[:items]
+count = 0
+items.each do |item|
+  count += 1 if item[:kind] == 'shopping#product' 
+end
+pp count
 
 ###
 ### QUESTION 2
 ###
-#items = data[:items]
-#items.each do |item|
-#  if item[:product][:inventories][0][:availability] == 'backorder'
-#    pp item[:product][:title] 
-#  end
-#end
+items = data[:items]
+items.each do |item|
+  if item[:product][:inventories][0][:availability] == 'backorder'
+    pp item[:product][:title] 
+  end
+end
 
 ###
 ### QUESTION 3
 ###
-#items = data[:items]
-#items.each do |item|
-#  if item[:product][:images].length > 2
-#    pp item[:product][:title]
-#  end
-#end
+items = data[:items]
+items.each do |item|
+  if item[:product][:images].length > 2
+    pp item[:product][:title]
+  end
+end
 
 ###
 ### QUESTION 4
 ###
-#items = data[:items]
-#items.each do |item|
-#  if item[:product][:brand] == 'Canon'
-#    pp item[:product][:title]
-#  end
-#end
+items = data[:items]
+items.each do |item|
+  if item[:product][:brand] == 'Canon'
+    pp item[:product][:title]
+  end
+end
 
 ###
 ### QUESTION 5
