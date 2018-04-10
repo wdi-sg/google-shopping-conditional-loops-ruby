@@ -7,6 +7,11 @@ This large object is in the products file. It is the kind of object you would re
 ## Getting Started
 Write your solutions in the `ruby/google-shopping.rb` file.
 
+Install byebug
+```
+gem install byebug
+```
+
 ## Deliverables
 
 Use the product search result in your file to find the following results. Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the console.
