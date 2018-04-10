@@ -3,7 +3,7 @@ require 'json'
 require 'pp'
 
 file = File.read('products.json')
-data = JSON.parse(file)
+data = JSON.parse(file, {:symbolize_names => true})
 
 pp data
 
