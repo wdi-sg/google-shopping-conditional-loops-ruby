@@ -12,7 +12,7 @@ $data = data[:items]
 
 # Write your solutions below
 def count_all_shopping_products
-    puts $data.select{|item| item[:kind] == 'shopping#product'}.length
+    puts $data.count{|item| item[:kind] == 'shopping#product'}
 end
 
 def print_titles_of_backorders
