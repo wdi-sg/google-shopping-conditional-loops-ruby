@@ -27,6 +27,12 @@ def find_products_by_brand(brand = 'Canon')
     pp $data.select{|item| item[:product][:brand].downcase == brand.downcase}
 end
 
+def find_items_by_author_and_brand(author = 'eBay', brand = 'Canon')
+    pp $data.select{|item| item[:product][:brand].downcase == brand.downcase && item[:product][:author][:name].downcase.include?(author.downcase)}
+end
+
 def print_brand_price_image_of_all_products
     pp $data.map{|obj| "brand: #{obj[:product][:brand]}, price: #{obj[:product][:inventories][0][:price]}, image: #{obj[:product][:images][0][:link]}"}
 end
+
+find_items_by_author_and_brand
