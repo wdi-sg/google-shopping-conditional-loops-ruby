@@ -34,5 +34,3 @@ end
 def print_brand_price_image_of_all_products
     pp $data.map{|obj| "brand: #{obj[:product][:brand]}, price: #{obj[:product][:inventories][0][:price]}, image: #{obj[:product][:images][0][:link]}"}
 end
-
-find_items_by_author_and_brand
